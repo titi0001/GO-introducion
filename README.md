@@ -1,2 +1,5 @@
 # GO-projects
-learming GO
+learning Go to basic
+
+## Second week OOP
+learning GO to OOP 

@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"main/OOP/Bank/contas"
+	 c "main/OOP/Bank/contas"
 )
 
 func main() {
 
-	contaDaSilvia := contas.ContaCorrente{Titular: "Silvia", Saldo: 300}
-	contaDoGustavo := contas.ContaCorrente{Titular: "Gustavo", Saldo: 100}
+	contaDaSilvia := c.ContaCorrente{Titular: "Silvia", Saldo: 300}
+	contaDoGustavo := c.ContaCorrente{Titular: "Gustavo", Saldo: 100}
 
 	status := contaDoGustavo.Transferir(200, &contaDaSilvia)
 
